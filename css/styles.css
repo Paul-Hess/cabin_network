@@ -1,0 +1,53 @@
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 1200px;
+	max-width: 1500px;
+	background-image: url('../img/cabin.jpg'); 
+	background-size: 1500px 900px;
+	background-repeat: no-repeat;
+}
+
+.header-nav-flag {
+	position: fixed;
+	top: 0px;
+	left: 150px;
+	z-index: 2;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+};
+
+ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+}
+
+
+.main-info {
+width: 400px;
+height: 400px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+border-radius: 5px;
+background: rgba(147,206,222,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(147,206,222,.5) 0%, rgba(117,189,209,.5) 10%, rgba(84,130,143,.5) 45%, rgba(32,36,40,.5) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(147,206,222,.5)), color-stop(10%, rgba(117,189,209,.5)), color-stop(45%, rgba(84,130,143,.5)), color-stop(100%, rgba(32,36,40,.5)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(147,206,222,.5) 0%, rgba(117,189,209,.5) 10%, rgba(84,130,143,.5) 45%, rgba(32,36,40,.5) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(147,206,222,.5) 0%, rgba(117,189,209,.5) 10%, rgba(84,130,143,.5) 45%, rgba(32,36,40,.5) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(147,206,222,.5) 0%, rgba(117,189,209,.5) 10%, rgba(84,130,143,.5) 45%, rgba(32,36,40,.5) 100%);
+background: radial-gradient(ellipse at center, rgba(147,206,222,.5) 0%, rgba(117,189,209,.5) 10%, rgba(84,130,143,.5) 45%, rgba(32,36,40,.5) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#202428', GradientType=1 );
+}
