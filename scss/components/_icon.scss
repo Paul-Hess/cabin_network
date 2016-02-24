@@ -1,0 +1,12 @@
+ul li span.fa:hover {
+	font-size: 3em;
+	animation-name: icon-dance;
+	animation-duration: 1s;
+}
+
+@keyframes icon-dance {
+	0% {text-shadow: 2px 4px 2px #163A29;}
+	25% {text-shadow: -2px -4px 2px #163A29;}
+	50% {text-shadow: 4px 2px 2px #163A29;}
+	100% {text-shadow: -4px -2px 2px #163A29;}
+}

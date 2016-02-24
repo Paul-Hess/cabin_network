@@ -1,0 +1,19 @@
+@mixin positioning($position, $top, $left: 5vw) {
+  position: $position;
+  top: $top;
+  left: $left;
+}
+
+@mixin gradient-bkgrnd($class: elem-bkgrnd) {
+  .#{$class} {
+    background: rgba($color-gradient-one, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba($color-gradient-one, $bkgrnd-opacity) 0%, rgba($color-gradient-two,  $bkgrnd-opacity) 10%, rgba($color-gradient-three,$bkgrnd-opacity) 45%, rgba($color-gradient-four,$bkgrnd-opacity) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba($color-gradient-one, $bkgrnd-opacity)), color-stop(10%, rgba($color-gradient-two,  $bkgrnd-opacity)), color-stop(45%, rgba($color-gradient-three,$bkgrnd-opacity)), color-stop(100%, rgba($color-gradient-four,$bkgrnd-opacity)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba($color-gradient-one, $bkgrnd-opacity) 0%, rgba($color-gradient-two,  $bkgrnd-opacity) 10%, rgba($color-gradient-three,$bkgrnd-opacity) 45%, rgba($color-gradient-four,$bkgrnd-opacity) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba($color-gradient-one, $bkgrnd-opacity) 0%, rgba($color-gradient-two,  $bkgrnd-opacity) 10%, rgba($color-gradient-three,$bkgrnd-opacity) 45%, rgba($color-gradient-four,$bkgrnd-opacity) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba($color-gradient-one, $bkgrnd-opacity) 0%, rgba($color-gradient-two,  $bkgrnd-opacity) 10%, rgba($color-gradient-three,$bkgrnd-opacity) 45%, rgba($color-gradient-four,$bkgrnd-opacity) 100%);
+    background: radial-gradient(ellipse at center, rgba($color-gradient-one, $bkgrnd-opacity) 0%, rgba($color-gradient-two,  $bkgrnd-opacity) 10%, rgba($color-gradient-three,$bkgrnd-opacity) 45%, rgba($color-gradient-four,$bkgrnd-opacity) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#202428', GradientType=1 );
+    color: #f8f7ec;
+  }
+}

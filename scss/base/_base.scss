@@ -6,8 +6,14 @@ html {
 
 body {
 	background-image: url('../img/cabin.jpg');
-	background-size: 1450px 900px;
+	background-size: cover;
+	background-repeat: repeat-y;
 	background-color: #204F3D;
 	background-blend-mode: hard-light;
-	font-family: 'Podkova', serif;
+	font-family: $font-main;
+}
+
+a {
+	color: $color-title;
+	text-decoration: none;
 }

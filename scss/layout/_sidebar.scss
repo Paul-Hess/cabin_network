@@ -1,0 +1,24 @@
+.side-info {
+	position: fixed;
+	top: $top-header+9vh;
+	right: 50px;
+	border-radius: 4px;
+	z-index: 2;
+	background: url('#{$path-img}/img-noise.png');
+	width: 12vw;
+	float: left;
+}
+
+.side-info p {
+	text-align: center;
+	width: 80%;
+	height: 8vh;
+	margin: 1em auto;
+	font-size: 1.7em;
+}
+
+.side-info p > a {
+	margin-left: .5em;
+	color: rgba($color-title, .6);
+	text-shadow: 2px 2px rgba($color-text-shadow, .9);
+}

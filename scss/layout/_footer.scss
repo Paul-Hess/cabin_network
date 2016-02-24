@@ -1,0 +1,9 @@
+.footer {
+	@include positioning(absolute, 240vh, 0);
+	height: 100px;
+	width: $mobile-div-width;
+
+  li a span.fa {
+    display: block;
+  }
+}

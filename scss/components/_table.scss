@@ -1,0 +1,22 @@
+
+table {
+  @include positioning(absolute, $top-main + 75);
+	width: $table-width;
+	height: $header-height * 2;
+}
+
+table, td {
+  border: 2px solid rgba($color-table-border, .3);
+  border-radius: 3px;
+}
+
+	td {
+	font-size: 1.2em;
+}
+
+caption {
+	letter-spacing: 4px;
+	font-size: 2em;
+	height: 1em;
+	padding: .2em;
+}
