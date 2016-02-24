@@ -81,6 +81,12 @@ ul {
   z-index: 2;
   height: 9vh;
   width: 25vw; }
+  @media screen and (max-width: 650px) {
+    .header-nav-flag {
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0; } }
 
 .header-title {
   position: absolute;
@@ -93,6 +99,13 @@ ul {
   color: rgba(248, 247, 236, 0.6);
   text-shadow: -1px 1px 4px rgba(15, 36, 18, 0.9);
   mix-blend-mode: luminosity; }
+  @media screen and (max-width: 650px) {
+    .header-title {
+      width: 100vw;
+      position: fixed;
+      top: 10vh;
+      left: 0;
+      text-align: left; } }
 
 .side-info {
   position: fixed;
@@ -103,6 +116,12 @@ ul {
   background: url("../img/img-noise.png");
   width: 12vw;
   float: left; }
+  @media screen and (max-width: 700px) {
+    .side-info {
+      width: 31.25vw;
+      position: absolute;
+      top: 37vh;
+      left: 62.5vw; } }
 
 .side-info p {
   text-align: center;
@@ -124,6 +143,12 @@ ul {
   padding: .7em;
   border-radius: 5px;
   text-align: center; }
+  @media screen and (max-width: 650px) {
+    .main-info {
+      width: 62.5vw;
+      position: absolute;
+      top: 37vh;
+      left: 0; } }
 
 .main-info img {
   float: left;

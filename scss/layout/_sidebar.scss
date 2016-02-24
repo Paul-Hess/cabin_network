@@ -7,6 +7,10 @@
 	background: url('#{$path-img}/img-noise.png');
 	width: 12vw;
 	float: left;
+	@media screen and (max-width: 700px) {
+		width: $div-width * 1.25;
+		@include positioning(absolute, $top-main + 10, $div-width * 2.5);
+	}
 }
 
 .side-info p {

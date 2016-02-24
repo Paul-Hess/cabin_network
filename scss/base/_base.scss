@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background-image: url('../img/cabin.jpg');
+	background-image: url('#{$path-img}/cabin.jpg');
 	background-size: cover;
 	background-repeat: repeat-y;
 	background-color: #204F3D;

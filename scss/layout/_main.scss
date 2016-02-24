@@ -4,6 +4,11 @@ width: $div-width;
 padding: .7em;
 border-radius: 5px;
 text-align: center;
+
+@media screen and (max-width: 650px) {
+  width: $div-width * 2.5;
+  @include positioning(absolute, $top-main+10, 0);
+}
 }
 
 .main-info img {
